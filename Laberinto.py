@@ -26,7 +26,7 @@ def main_loop(laberinto, inicio, fin):
             if numero > 50:
                 numero = 50
             limpiar_pantalla()
-            print(f"Tecla presionada: {key}")
+            print(f"Tecla presionada: {tecla}")
             print(f"Número: {numero}")
         elif tecla == readchar.key.UP:
             nueva_px, nueva_py = px - 1, py
